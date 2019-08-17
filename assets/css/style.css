@@ -1,0 +1,160 @@
+body {
+    margin: 0;
+    background-image: url(../images/background-imgs/showmearound-5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1px;
+    color: #ffffff;
+}
+
+.containers-wrapper {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px black;
+    opacity: 0.9;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 2px;
+    padding-bottom: 10px;
+}
+
+.container-header h1 {
+    color: gold;
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 0px;
+}
+
+.container-header,
+.container-form {
+    display: flex;
+    border-radius: 4px;
+    box-shadow: 3px 3px 5px rgb(151, 155, 151);
+    margin: 1px;
+    padding-left: 15px;
+    border: 1px solid black;
+}
+
+.container-header {
+    background-color: rgb(25, 25, 87);
+}
+
+.container-form {
+    background-color: rgb(10, 0, 0);
+    padding: 15px;
+}
+
+.container-form form {
+    display: flex;
+    flex-direction: row;
+    /* border: 2px dotted green; */
+}
+
+.container-form label,
+.container-form input {
+    margin: 5px;
+    width: auto;
+}
+
+.container-form input {
+    padding: 3px;
+    border-radius: 5px;
+    border: 1px solid darkgrey;
+    background-color: #ffffff;
+    color: darkcyan;
+    font-size: 15px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.container-form .country-code {
+    width: 100px;
+}
+
+.container-form .title-form {
+    color: orange
+}
+
+.container-form [type=submit] {
+    background-color: rgb(4, 36, 36);
+    color: white;
+    width: 90px;
+}
+
+.container-form img {
+    width: 40px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+.container-form img:hover {
+    border: 1px solid goldenrod;
+    border-radius: 100px;
+    width: 38px;
+    height: 33px;
+}
+
+.container-content {
+    border: 1px solid lightgrey;
+    color: black;
+    text-align: center;
+}
+
+.container-footer {
+    background-color: rgb(32, 30, 30);
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    top: 600px;
+    border-top: 1px solid lightblue;
+    font-size: 12px;
+
+}
+
+
+/* Tablet reponsiveness  */
+@media screen and (max-width: 990px) {
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .containers-wrapper {
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+        padding: 0px;
+        font-size: 12px;
+    }
+}
+
+/* Mobile Reponsiveness */
+@media screen and (max-width: 640px) {
+    body {
+        height: 890px;
+    }
+
+    .container-form form {
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+    }
+
+    .container-form img {
+        margin-top: 10px;
+        margin-left: 2px;
+    }
+
+    .container-footer {
+        position: relative;
+        top: 355px;
+        border-top: 1px solid goldenrod;
+    }
+}

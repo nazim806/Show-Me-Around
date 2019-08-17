@@ -1,0 +1,37 @@
+/* The app.css styles only rendered elements by app.js */
+.container-content h3 {
+    background-color: rgb(195, 205, 214);
+    box-shadow: 3px 3px 5px rgb(151, 155, 151);
+    border-radius: 5px;
+    margin-left: 80px;
+    margin-right: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.container-content img {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/*Mobile Reponsiveness */
+@media screen and (max-width: 640px) {
+
+    .container-content h3 {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .container-content img {
+        width: 350px;
+        height: 350px;
+        margin: 5px;
+        padding: 10px;
+        border-radius: 5px;
+    }
+
+}

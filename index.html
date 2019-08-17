@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Show Me Around.</title>
+  <!--config.js contains important API credentials-->
+  <script src="assets/javascript/config.js"></script>
+  <!-- style.css styles main static htms elements-->
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <!--app.css will style all rendered htmls elements-->
+  <link rel="stylesheet" href="assets/css/app.css">
+</head>
+
+<body>
+  <section class="containers-wrapper">
+
+    <section class="container-header">
+      <h1>Show Me Around</h1>
+    </section>
+
+    <section class="container-form">
+      <form action="">
+        <label for="title-form" class="title-form">Quck Tour Guide</label>
+        <input type="text" class="search-value" placeholder="search cities" value="" />
+        <input type="text" class="country-code" placeholder="country code" value="">
+        <input type="submit" class="search" value="Search">
+        <!--Icons Buttons-->
+        <img src="https://img.icons8.com/color/480/000000/chance-of-storm.png" class="weather-icon">
+        <label for="">Weather</label>
+        <img src="https://img.icons8.com/color/64/000000/ios-photos.png" class="image-icon">
+        <label for="">Pictures</label>
+        <img src="https://img.icons8.com/dusk/64/000000/map.png" class="locate-me">
+        <label for="">Map</label>
+      </form>
+    </section>
+
+    <!--App.js renders application features here -->
+    <section class="container-content">
+    </section>
+
+  </section>
+
+  <!--Dynamic Footer updates the range of copy right year from the time this product published-->
+  <section class="container-footer">
+    <p>&copy; 2019<script>
+        new Date().getFullYear() > 2019 && document.write("-" + new Date().getFullYear());
+      </script>, UC Berkeley Extention </p>
+  </section>
+
+
+  <script src="assets/javascript/app.js"></script>
+
+</body>
+
+</html>
