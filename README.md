@@ -7,6 +7,8 @@ A web application that shows users weather and cool pictures of the searched loc
 **APIs used:** Unsplash, Open weather and Pixabay.
 
 **Technology used:**
+
+
 HTML5
 
 
