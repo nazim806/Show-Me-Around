@@ -1,3 +1,5 @@
 # Show-Me-Around
 
-Project #1 done in collaboration with Angel, Farkhod and Bilal.
+Project done in collaboration with Angel, Farkhod and Bilal.
+
+A web application that shows users weather and cool pictures of the searched location.
